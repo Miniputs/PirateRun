@@ -1,0 +1,70 @@
+{
+	"ID": "86dd9bf04840829985becb93946b86c6",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6217,
+	"Data": [
+	{
+		"ID": "2a2526da4de864633730b89eda123202",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"Name": "Vase1-PF",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 204.33892822265626
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": -0.7071068286895752,
+				"W": 0.7071067094802856
+			}
+		},
+		"Layer": 2,
+		"IsTrigger": true,
+		"Center": {
+			"X": -40.0,
+			"Y": 0.0,
+			"Z": 0.0
+		},
+		"Radius": 30.0,
+		"Height": 60.0
+	},
+	{
+		"ID": "22d2168e4f567e677b0560a50e8ba7b7",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "2a2526da4de864633730b89eda123202",
+		"Name": "Vase1",
+		"Transform": {
+			"Translation": {
+				"X": -3.7467984270733725e-7,
+				"Y": 3.1430420875549318,
+				"Z": 20.89775848388672
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.7071068286895752,
+				"W": 0.7071068286895752
+			},
+			"Scale": {
+				"X": 2.0,
+				"Y": 2.0,
+				"Z": 2.0
+			}
+		},
+		"Layer": 2,
+		"Model": "728bfba2405c0183159de098d22a2f04",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

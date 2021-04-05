@@ -1,0 +1,27 @@
+{
+	"ID": "2364031e4e327637c1ad88b415fa756e",
+	"TypeName": "FlaxEditor.Content.Settings.BuildSettings",
+	"EngineBuild": 6217,
+	"Data": {
+	"MaxAssetsPerPackage": 4096,
+	"MaxPackageSizeMB": 1024,
+	"ContentKey": 0,
+	"ForDistribution": false,
+	"SkipPackaging": false,
+	"ShadersNoOptimize": false,
+	"ShadersGenerateDebugData": false,
+	"Presets": [
+		{
+			"Name": "Release",
+			"Targets": [
+				{
+					"Name": "Windows 64bit",
+					"Output": "Output\\Win64",
+					"Platform": 2,
+					"Mode": 2
+				}
+			]
+		}
+	]
+}
+}

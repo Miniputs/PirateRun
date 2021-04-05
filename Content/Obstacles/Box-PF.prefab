@@ -1,0 +1,56 @@
+{
+	"ID": "d84aa00645a246c6b88ca29dee8815b1",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6217,
+	"Data": [
+	{
+		"ID": "4175a3514c1c6e886ad76c97b60e630a",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"Name": "Box-PF",
+		"Transform": {
+			"Translation": {
+				"X": -110.0,
+				"Y": 0.0,
+				"Z": -3919.9921875
+			}
+		},
+		"Layer": 2,
+		"IsTrigger": true,
+		"Center": {
+			"X": 0.0,
+			"Y": 35.0,
+			"Z": 0.0
+		},
+		"Size": {
+			"X": 70.0,
+			"Y": 90.0,
+			"Z": 70.0
+		}
+	},
+	{
+		"ID": "184bc220470bc165b1ab71b26cca3bfc",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "4175a3514c1c6e886ad76c97b60e630a",
+		"Name": "Box",
+		"Transform": {
+			"Translation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 54.4986572265625
+			}
+		},
+		"Layer": 2,
+		"Model": "fb9ad381442a63c9d3442cb1a5a4e29b",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

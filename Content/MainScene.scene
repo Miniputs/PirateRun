@@ -1,0 +1,2597 @@
+{
+	"ID": "4cb760284c15b7ffffdb62a9a3d598b4",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6217,
+	"Data": [
+		{
+			"ID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "18db5bd7483fa5b75b809a936ac6b631",
+			"TypeName": "Game.ExitOnEsc",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"V": {}
+		},
+		{
+			"ID": "eda61197479267867d578eb31cca0f92",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "Visuals"
+		},
+		{
+			"ID": "b25a752a45f690f1575eb5942c258de8",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "eda61197479267867d578eb31cca0f92",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.5224772095680237,
+					"Y": -0.21416740119457246,
+					"Z": 0.02120709978044033,
+					"W": 0.8250455260276794
+				}
+			},
+			"Brightness": 3.0,
+			"ShadowsDistance": 50000.0
+		},
+		{
+			"ID": "38da75ea4eef2957b8d325af5da8374c",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "eda61197479267867d578eb31cca0f92",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "c77701064ef43134238bfe8de81b571f",
+			"TypeName": "FlaxEngine.SkyLight",
+			"ParentID": "eda61197479267867d578eb31cca0f92",
+			"Name": "SkyLight",
+			"Brightness": 4.0,
+			"CastVolumetricShadow": false,
+			"CustomTexture": "c54410104ff39427bc11e5bc761d66b0"
+		},
+		{
+			"ID": "cc8ee63a464cea4a8143269079f6f0f3",
+			"TypeName": "FlaxEngine.PostFxVolume",
+			"ParentID": "eda61197479267867d578eb31cca0f92",
+			"Name": "PostFxVolume",
+			"Transform": {
+				"Translation": {
+					"X": -947.1480712890625,
+					"Y": -1074.973388671875,
+					"Z": 0.0
+				}
+			},
+			"Size": {
+				"X": 100.0,
+				"Y": 100.0,
+				"Z": 100.0
+			},
+			"IsBounded": false,
+			"Settings": {
+				"AO": {},
+				"Bloom": {},
+				"ToneMapping": {},
+				"ColorGrading": {},
+				"EyeAdaptation": {
+					"OverrideFlags": 1,
+					"Mode": 0
+				},
+				"CameraArtifacts": {},
+				"LensFlares": {
+					"OverrideFlags": 1,
+					"Intensity": 0.0
+				},
+				"DepthOfField": {},
+				"MotionBlur": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
+				"SSR": {},
+				"AA": {},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "971fa7af4adf68d87f2acb915c0e9d2a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "PirateScene 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1.3126220703125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.3199999928474426,
+					"Y": 0.3199999928474426,
+					"Z": 0.3199999928474426
+				}
+			},
+			"Model": "36ab2c3d4f628254eeee7796e9faac21",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "60fe02f84c6c4b6c89e08fa54b1304eb",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "PirateScene",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -100.0
+				},
+				"Scale": {
+					"X": 0.3199999928474426,
+					"Y": 0.3199999928474426,
+					"Z": 0.3199999928474426
+				}
+			},
+			"Model": "36ab2c3d4f628254eeee7796e9faac21",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "97e6239a4d6aaa215677bbab4a036be0",
+			"TypeName": "FlaxEngine.CharacterController",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "CharacterController",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -6736.98388671875
+				}
+			},
+			"Layer": 1,
+			"Tag": "Player",
+			"Center": {
+				"X": 0.0,
+				"Y": 103.0,
+				"Z": 0.0
+			},
+			"Radius": 40.0,
+			"Height": 120.0
+		},
+		{
+			"ID": "5b7b2d4f4aa25f67a0c6f1ada8f1b1b1",
+			"TypeName": "Game.Character",
+			"ParentID": "97e6239a4d6aaa215677bbab4a036be0",
+			"V": {
+	"LeftRightKeyGroup": "189f10ba4a6624458dd1b6ac125c0e9b",
+	"ColLabelQty": "d3579a554bcca145d29c70bf28b67a9a",
+	"RestartGroup": "a723ca6341326619d698008a2cc819eb",
+	"MainScene": "4cb760284c15b7ffffdb62a9a3d598b4",
+	"CharacterObj": "6f0b092949980ae5d3a361bae8d0282d",
+	"Speed": 910.0
+}
+		},
+		{
+			"ID": "1cf02eb8485cdeee978a63a0ccdf10ee",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "97e6239a4d6aaa215677bbab4a036be0",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 237.77035522460938,
+					"Z": -269.89453125
+				},
+				"Orientation": {
+					"X": 0.153532937169075,
+					"Y": 0.0,
+					"Z": 0.0,
+					"W": 0.9881435036659241
+				}
+			},
+			"Layer": 1
+		},
+		{
+			"ID": "6f0b092949980ae5d3a361bae8d0282d",
+			"TypeName": "FlaxEngine.AnimatedModel",
+			"ParentID": "97e6239a4d6aaa215677bbab4a036be0",
+			"Name": "Mina",
+			"Transform": {
+				"Scale": {
+					"X": 0.75,
+					"Y": 0.75,
+					"Z": 0.75
+				}
+			},
+			"Layer": 1,
+			"SkinnedModel": "1d90e47c4cfb36a3822b18b1da119320",
+			"AnimationGraph": "363fb20741e0e7f81457839bce93cc88",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					},
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b9bcbfb346e18174c4b6238f6a7258a0",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "97e6239a4d6aaa215677bbab4a036be0",
+			"Name": "AudioSource1",
+			"Clip": "367a5d704ff5ac0fcbffa0854ea2d89b"
+		},
+		{
+			"ID": "7a1b610644f4e9aa300c41995c165641",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "Obstacles"
+		},
+		{
+			"ID": "ed91b0424e13041d62de98913faaefdf",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641"
+		},
+		{
+			"ID": "8e2e5d264beef5d1da3737970535abac",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "ed91b0424e13041d62de98913faaefdf"
+		},
+		{
+			"ID": "0b4a8cc9471a3be8abe54a810643341b",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "8e2e5d264beef5d1da3737970535abac",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "178db2ca4f22877380b25aa1e374cf2f",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -2754.56884765625
+				}
+			}
+		},
+		{
+			"ID": "0d4a23574c08189f821f35828877e076",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "178db2ca4f22877380b25aa1e374cf2f"
+		},
+		{
+			"ID": "acbdfd7e4ab144bccd52c2afef314731",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "0d4a23574c08189f821f35828877e076",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "47ae7ea74b26662c4444268391a30748",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 110.0,
+					"Y": 0.0,
+					"Z": -4968.0419921875
+				}
+			}
+		},
+		{
+			"ID": "a1e1b7a14f947a7d5c1498b68c3d8f81",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "47ae7ea74b26662c4444268391a30748"
+		},
+		{
+			"ID": "3a41ab774870583541a36a883f7e1399",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "a1e1b7a14f947a7d5c1498b68c3d8f81",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "eaa5a75b43c1b2a6779d459320a07db9",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641"
+		},
+		{
+			"ID": "56ac22ce483006afa166e7ab9e49a9e9",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "eaa5a75b43c1b2a6779d459320a07db9",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f51b02704558a4542fce6c956558fd7e",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 112.16800689697266,
+					"Y": 0.0,
+					"Z": -1584.074462890625
+				}
+			}
+		},
+		{
+			"ID": "164db521443f0f2ee3879bb1937040c1",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "f51b02704558a4542fce6c956558fd7e",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6fcc391341dc21482905d1b20bd54df4",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641"
+		},
+		{
+			"ID": "bee78aaa4e02a15d19e96d9d9c3d562b",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "6fcc391341dc21482905d1b20bd54df4"
+		},
+		{
+			"ID": "423a46614cf29a74ebb1028caaffbf79",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "bee78aaa4e02a15d19e96d9d9c3d562b",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a11eb5944f8503c8a0ce36acd6e31b85",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 6",
+			"Transform": {
+				"Translation": {
+					"X": -114.39739990234375,
+					"Y": 0.0,
+					"Z": 21404.3125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "adc116f14fbc187904f70f826f30ed83",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "a11eb5944f8503c8a0ce36acd6e31b85",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e435be514aa6176b7e2030ad6db3ca36",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 5",
+			"Transform": {
+				"Translation": {
+					"X": 111.72674560546875,
+					"Y": 0.0,
+					"Z": 18136.927734375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "c0830b96453672c2e37a8d9bd97d4cf6",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "e435be514aa6176b7e2030ad6db3ca36",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "720a3ea440d7d035d5f7988dd3641851",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 4",
+			"Transform": {
+				"Translation": {
+					"X": 111.72674560546875,
+					"Y": 0.0,
+					"Z": 14891.58984375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "f87e29174a4ee54e8662239ddd1eb778",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "720a3ea440d7d035d5f7988dd3641851",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4cd765ef4f418eadb124e796a7a168d3",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 3",
+			"Transform": {
+				"Translation": {
+					"X": -112.2239990234375,
+					"Y": 0.0,
+					"Z": 11908.1181640625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "47aaea044f5a478d3903de93643a9664",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "4cd765ef4f418eadb124e796a7a168d3",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "9d76229d43c6feb959b9d7943b50400e",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 2",
+			"Transform": {
+				"Translation": {
+					"X": 3.00653076171875,
+					"Y": 0.0,
+					"Z": 8247.21875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "94fb9223449b3bfbddf0f0ba8abad3f2",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "9d76229d43c6feb959b9d7943b50400e",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "efb4a8484a4fd63b59881eb330582a4a",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 1",
+			"Transform": {
+				"Translation": {
+					"X": 116.2982177734375,
+					"Y": 0.0,
+					"Z": 6782.38671875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "61e8e45f4e97925018271eb01773b991",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "efb4a8484a4fd63b59881eb330582a4a",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5639efc44fec790d1947e2a8cae2d8cd",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase1-PF 0",
+			"Transform": {
+				"Translation": {
+					"X": 110.0,
+					"Y": 0.0,
+					"Z": 3163.69189453125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "d19a6006468a688c978bbf9d7bfc0464",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "5639efc44fec790d1947e2a8cae2d8cd",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b4887cc64ac2d4f26e93339a69072603",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "2a2526da4de864633730b89eda123202",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 307.76275634765627
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": -0.7071068286895752,
+					"W": 0.7071067094802856
+				}
+			}
+		},
+		{
+			"ID": "864bb33b4bf4a62ef933a08271a317cb",
+			"PrefabID": "86dd9bf04840829985becb93946b86c6",
+			"PrefabObjectID": "22d2168e4f567e677b0560a50e8ba7b7",
+			"ParentID": "b4887cc64ac2d4f26e93339a69072603",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "1394d5f34992fb189e88e1a456ab4eab",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641"
+		},
+		{
+			"ID": "ad121958436d44ac585901bc576c2db7",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "1394d5f34992fb189e88e1a456ab4eab",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "07caf164458ef81dcd25a8a1f1b7483d",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": -126.45718383789063,
+					"Y": 0.0,
+					"Z": 1313.60205078125
+				}
+			}
+		},
+		{
+			"ID": "3ca05ced4c7cf53ae3d244afb332cd60",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "07caf164458ef81dcd25a8a1f1b7483d"
+		},
+		{
+			"ID": "e9ddd63c41a6d3ecd0b72cbfae347635",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "3ca05ced4c7cf53ae3d244afb332cd60",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e2e2832d43ec1ae053dac8a66d845d02",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 6",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 18594.2890625
+				}
+			}
+		},
+		{
+			"ID": "173365b44cd4ed2337a3509f96d14acd",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "e2e2832d43ec1ae053dac8a66d845d02",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "2a84c87f4f2d3915eae5e7be5dab24dd",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 5",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 15272.9482421875
+				}
+			}
+		},
+		{
+			"ID": "939467bd48998c405b0129bb8a1a66cb",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "2a84c87f4f2d3915eae5e7be5dab24dd",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "e3c1399f4089254ee1a8a7a679d81c5b",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 4",
+			"Transform": {
+				"Translation": {
+					"X": 110.0,
+					"Y": 0.0,
+					"Z": 13045.7705078125
+				}
+			}
+		},
+		{
+			"ID": "bd34ed8647615faf60c9b99a84b0b990",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "e3c1399f4089254ee1a8a7a679d81c5b",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b9c498d9483f6e23028c7db2b10b0430",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 3",
+			"Transform": {
+				"Translation": {
+					"X": 5.0,
+					"Y": 0.0,
+					"Z": 10827.583984375
+				}
+			}
+		},
+		{
+			"ID": "7d955d484fa326837bede8a159876ff3",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "b9c498d9483f6e23028c7db2b10b0430",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "37098d2d4a9104c9f15bc3904a554097",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 2",
+			"Transform": {
+				"Translation": {
+					"X": -112.32327270507813,
+					"Y": 0.0,
+					"Z": 7504.9599609375
+				}
+			}
+		},
+		{
+			"ID": "1de0866447583c0eff7d9093950c3504",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "37098d2d4a9104c9f15bc3904a554097",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "97214193482d3dd73f1a0e934cc2ae72",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 1",
+			"Transform": {
+				"Translation": {
+					"X": 105.072998046875,
+					"Y": 0.0,
+					"Z": 5047.73388671875
+				}
+			}
+		},
+		{
+			"ID": "ab084c6b4929ef62cf6d498cf01a90ca",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "97214193482d3dd73f1a0e934cc2ae72",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "109c73da4c3eb80e3ed40ba5b78b8fa2",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Box-PF 0",
+			"Transform": {
+				"Translation": {
+					"X": -0.214263916015625,
+					"Y": 0.0,
+					"Z": 4022.303466796875
+				}
+			}
+		},
+		{
+			"ID": "19cb2b914d3811d943490484dfed7745",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "109c73da4c3eb80e3ed40ba5b78b8fa2",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "c15b06e34e5ee4ee65764a9528c4b23f",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "4175a3514c1c6e886ad76c97b60e630a",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 1532.35888671875
+				}
+			}
+		},
+		{
+			"ID": "240e57fc461fca450f93828346624238",
+			"PrefabID": "d84aa00645a246c6b88ca29dee8815b1",
+			"PrefabObjectID": "184bc220470bc165b1ab71b26cca3bfc",
+			"ParentID": "c15b06e34e5ee4ee65764a9528c4b23f",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "6a4781a04d910076f345428ab1e5be87",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 6",
+			"Transform": {
+				"Translation": {
+					"X": -110.17752075195313,
+					"Y": 0.0,
+					"Z": 19853.921875
+				}
+			}
+		},
+		{
+			"ID": "7019840b435fd93da7c629bda6f6ff41",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "6a4781a04d910076f345428ab1e5be87"
+		},
+		{
+			"ID": "b769325e462004699f41db9722296a36",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "7019840b435fd93da7c629bda6f6ff41",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8cc1cd1045687a8445d6b7b1c55496f9",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 5",
+			"Transform": {
+				"Translation": {
+					"X": 109.81332397460938,
+					"Y": 0.0,
+					"Z": 15943.0625
+				}
+			}
+		},
+		{
+			"ID": "31624c654957dfe88db948ba492de152",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "8cc1cd1045687a8445d6b7b1c55496f9"
+		},
+		{
+			"ID": "cb24f2fa499d3d320ee838993b32d979",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "31624c654957dfe88db948ba492de152",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "bc987d7442e2aa0a3ce11b8d0f1a6f95",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 4",
+			"Transform": {
+				"Translation": {
+					"X": -112.96661376953125,
+					"Y": 0.0,
+					"Z": 14111.3330078125
+				}
+			}
+		},
+		{
+			"ID": "ed43ae0c4121712dfeebb0a90d643786",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "bc987d7442e2aa0a3ce11b8d0f1a6f95"
+		},
+		{
+			"ID": "3c36e91e45891dd4301ad99aa09df0b5",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "ed43ae0c4121712dfeebb0a90d643786",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "4a5c7b9e4ed79d6934d5cfba41d08c9a",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 12253.607421875
+				}
+			}
+		},
+		{
+			"ID": "1daf97d94099e978952f4598af18ac55",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "4a5c7b9e4ed79d6934d5cfba41d08c9a"
+		},
+		{
+			"ID": "241685e74b3fba845aaee583e351c478",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "1daf97d94099e978952f4598af18ac55",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "657e246f49d053e206f5059c5c83267b",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 2",
+			"Transform": {
+				"Translation": {
+					"X": 111.05575561523438,
+					"Y": 0.0,
+					"Z": 8925.9228515625
+				}
+			}
+		},
+		{
+			"ID": "05bfa8e84b8fe269afc18196e44e0bb0",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "657e246f49d053e206f5059c5c83267b"
+		},
+		{
+			"ID": "5b9bb79a42c1ed1354775ba370c7c944",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "05bfa8e84b8fe269afc18196e44e0bb0",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "5fa6dcdc4e3a0b3724854d9b09f8603d",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 1",
+			"Transform": {
+				"Translation": {
+					"X": -3.442779541015625,
+					"Y": 0.0,
+					"Z": 6274.9736328125
+				}
+			}
+		},
+		{
+			"ID": "95a83ee0413ea8d73b43499fef87b3a2",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "5fa6dcdc4e3a0b3724854d9b09f8603d"
+		},
+		{
+			"ID": "fee110a040102f2485713487483e36f1",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "95a83ee0413ea8d73b43499fef87b3a2",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f3a567514df5eacc4c16a7a107000946",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Barrel-PF 0",
+			"Transform": {
+				"Translation": {
+					"X": -115.12411499023438,
+					"Y": 0.0,
+					"Z": 4323.06103515625
+				}
+			}
+		},
+		{
+			"ID": "b1823fe34b8151c1223699a0f36abb0e",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "f3a567514df5eacc4c16a7a107000946"
+		},
+		{
+			"ID": "3f7abafb4aee847e95e971a3b0077455",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "b1823fe34b8151c1223699a0f36abb0e",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a467725243b85b114a66658f25db7d44",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "22625efa448809d977eeb8b821d6f4f1",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": 110.21829223632813,
+					"Y": 0.0,
+					"Z": 2362.66552734375
+				}
+			}
+		},
+		{
+			"ID": "03f047a34819f1b164eaf0a0f00636e7",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "b5b371f04eaaa9b8d87772b3af513ec7",
+			"ParentID": "a467725243b85b114a66658f25db7d44"
+		},
+		{
+			"ID": "0060f3454d408e151a05c88718d93dd9",
+			"PrefabID": "e603459744dc29c0caa1d484b96e3639",
+			"PrefabObjectID": "7af9e5a5464034bf776c78b3b03b7bd3",
+			"ParentID": "03f047a34819f1b164eaf0a0f00636e7",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b4cb670a45117c82e4810d845208841c",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 5",
+			"Transform": {
+				"Translation": {
+					"X": 104.28976440429688,
+					"Y": 0.0,
+					"Z": 20473.6953125
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "67588a3c471014e8f6d912b451495063",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "b4cb670a45117c82e4810d845208841c",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "42324faf4629c430248565876e4d1936",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 4",
+			"Transform": {
+				"Translation": {
+					"X": -113.852783203125,
+					"Y": 0.0,
+					"Z": 16500.154296875
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "d000fadf437850d40a536db5f8071f76",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "42324faf4629c430248565876e4d1936",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "324a260942a311a01211ce81ab007b92",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 3",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 13958.693359375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "2396cb594363a92a38c0779a0e7fdfe2",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "324a260942a311a01211ce81ab007b92",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "f51e6b6a4f71dfa53f6ee0a687fdc8f6",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 2",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 9410.03515625
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "b0a3891e4b59a525591b59af49ceef48",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "f51e6b6a4f71dfa53f6ee0a687fdc8f6",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "34dfeafe4232dab57a09b395ceca9e87",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 7874.63427734375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "887c69784414132bee81e5958154cebe",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "34dfeafe4232dab57a09b395ceca9e87",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d62517414a542a52eb4be69bc7c93675",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Vase2-PF 0",
+			"Transform": {
+				"Translation": {
+					"X": 110.86544799804688,
+					"Y": 0.0,
+					"Z": 5919.88037109375
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "690770cc4c477f8decf1108268a75a70",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "d62517414a542a52eb4be69bc7c93675",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a43c1e42460510d7b2578eab6057eda6",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "665aa5ef487531aad1d604acf3e9ca15",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": -119.01290893554688,
+					"Y": 0.0,
+					"Z": 2000.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 0.7071068286895752,
+					"W": 0.7071068286895752
+				}
+			}
+		},
+		{
+			"ID": "0c00b827452253f7793361ba9ecb7c37",
+			"PrefabID": "853ae097498a81010644a5bb73315a12",
+			"PrefabObjectID": "7d34023644866965112d25b7de20d7fa",
+			"ParentID": "a43c1e42460510d7b2578eab6057eda6",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "a7ccdd3a4ba4d56c41fc57bb11788e22",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Stone-PF 3",
+			"Transform": {
+				"Translation": {
+					"X": -118.12460327148438,
+					"Y": 0.0,
+					"Z": 17445.28125
+				}
+			}
+		},
+		{
+			"ID": "419084024593845bb797d883fce8b46d",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "a7ccdd3a4ba4d56c41fc57bb11788e22"
+		},
+		{
+			"ID": "26fe57894fb72101801e998e10dd6c12",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "419084024593845bb797d883fce8b46d",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "8ae23bd84c42e6ed617bb9a8d66f2f53",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Stone-PF 2",
+			"Transform": {
+				"Translation": {
+					"X": -118.12460327148438,
+					"Y": 0.0,
+					"Z": 13608.0986328125
+				}
+			}
+		},
+		{
+			"ID": "d4d0d5e94407e592634286b79210dff2",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "8ae23bd84c42e6ed617bb9a8d66f2f53"
+		},
+		{
+			"ID": "f3966fdf4fd544be2fd2c0b49f85c4ee",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "d4d0d5e94407e592634286b79210dff2",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "b5f5ca0c41f42a68c28260b667819d25",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Stone-PF 1",
+			"Transform": {
+				"Translation": {
+					"X": -118.12460327148438,
+					"Y": 0.0,
+					"Z": 10522.9375
+				}
+			}
+		},
+		{
+			"ID": "0a067d1345290b4e5e612ba217a30049",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "b5f5ca0c41f42a68c28260b667819d25"
+		},
+		{
+			"ID": "03c35b054d45b2ddd4394fb24c0615af",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "0a067d1345290b4e5e612ba217a30049",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "18f07abb4062d8743edc5faa56e346a3",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Name": "Stone-PF 0",
+			"Transform": {
+				"Translation": {
+					"X": -118.12460327148438,
+					"Y": 0.0,
+					"Z": 5418.83349609375
+				}
+			}
+		},
+		{
+			"ID": "9f31c5794ea72b2dd7a5d7a19abe179b",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "18f07abb4062d8743edc5faa56e346a3"
+		},
+		{
+			"ID": "e370446b4d55f97cb803f08dafee913f",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "9f31c5794ea72b2dd7a5d7a19abe179b",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "56d53db1490153395a8b68812caba1a7",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "574ca9f54c02480a4c13228e9a949d1c",
+			"ParentID": "7a1b610644f4e9aa300c41995c165641",
+			"Transform": {
+				"Translation": {
+					"X": -118.12460327148438,
+					"Y": 0.0,
+					"Z": 2995.45556640625
+				}
+			}
+		},
+		{
+			"ID": "2f6cf50c411ca53b41ae2d969139c5ad",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "f2a44c9b4614a6bf804363a203a2bf16",
+			"ParentID": "56d53db1490153395a8b68812caba1a7"
+		},
+		{
+			"ID": "8f3bd2e84ca9a461b5975f94ddfc57c4",
+			"PrefabID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+			"PrefabObjectID": "ac36484746253433c42d76b81cf67c1b",
+			"ParentID": "2f6cf50c411ca53b41ae2d969139c5ad",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"TypeName": "FlaxEngine.UICanvas",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "UICanvas",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {}
+		},
+		{
+			"ID": "ff66bd2b4ad5a6be503d4b9ef6ecea2e",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"Name": "CollisionsLabel",
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Collisions\n",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 0,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 28
+	},
+	"Margin": {
+		"Left": 20.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": true,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 174.0,
+		"Top": 0.0,
+		"Bottom": 102.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "d3579a554bcca145d29c70bf28b67a9a",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"Name": "CollisionsQty",
+			"Transform": {
+				"Translation": {
+					"X": 537.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "0",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 2,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 28
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": true,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.5,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.5,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": -68.0,
+		"Right": 20.0,
+		"Top": 0.0,
+		"Bottom": 51.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "607333e349073c836b319497d94598a4",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"Name": "EscKey",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 192.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "6c0e56714a4732d9d5e69580b2b13758"
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 64.0,
+		"Top": 192.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "dcec5bae402fc7c2056c70bb2737b3fb",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"Name": "EscKeyLabel",
+			"Transform": {
+				"Translation": {
+					"X": 64.0,
+					"Y": 192.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Quit",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 16
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 64.0,
+		"Right": 40.0,
+		"Top": 192.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "189f10ba4a6624458dd1b6ac125c0e9b",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"Name": "HorzControlInfo",
+			"Control": "FlaxEngine.GUI.ContainerControl",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 200.0,
+		"Top": 0.0,
+		"Bottom": 200.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "f16678df4035854d2d1715b3177eb362",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "189f10ba4a6624458dd1b6ac125c0e9b",
+			"Name": "LeftKey",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 64.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "fdaba3454d4bd4a0177d9ab11bd6655e"
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 64.0,
+		"Top": 64.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "e1037e1a4ec7f053043130a80656f70d",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "189f10ba4a6624458dd1b6ac125c0e9b",
+			"Name": "RightKeyLabel",
+			"Transform": {
+				"Translation": {
+					"X": 64.0,
+					"Y": 128.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Move right",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 16
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 64.0,
+		"Right": 101.0,
+		"Top": 128.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "eb45b2fe4994f20e6483e893798e5715",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "189f10ba4a6624458dd1b6ac125c0e9b",
+			"Name": "LeftKeyLabel",
+			"Transform": {
+				"Translation": {
+					"X": 64.0,
+					"Y": 64.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Move left",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 16
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 64.0,
+		"Right": 88.0,
+		"Top": 64.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "41e59ddd421616354fae7690289bde28",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "189f10ba4a6624458dd1b6ac125c0e9b",
+			"Name": "RightKey",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 128.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "c8a8be20470dac65f344249d7b8d2fb4"
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 64.0,
+		"Top": 128.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "a723ca6341326619d698008a2cc819eb",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "65bfb94d4cc1f07fa913e9a6485b55dc",
+			"IsActive": false,
+			"Name": "RestartGrp",
+			"Control": "FlaxEngine.GUI.ContainerControl",
+			"Data": {
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 200.0,
+		"Top": 0.0,
+		"Bottom": 400.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": true
+}
+		},
+		{
+			"ID": "675ec88e4a6f42e25f636788ffcd0ca7",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a723ca6341326619d698008a2cc819eb",
+			"Name": "EnterKey",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 256.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Image",
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+		"Texture": "c499e4ce4652b9052fc2c6a7b30230a1"
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"Color": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"MouseOverColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"DisabledTint": {
+		"R": 0.5019608,
+		"G": 0.5019608,
+		"B": 0.5019608,
+		"A": 1.0
+	},
+	"KeepAspectRatio": true,
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 0.0,
+		"Right": 64.0,
+		"Top": 256.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "52dbda8f46ce8813cf003994e2e94485",
+			"TypeName": "FlaxEngine.UIControl",
+			"ParentID": "a723ca6341326619d698008a2cc819eb",
+			"Name": "EnterKeyLabel",
+			"Transform": {
+				"Translation": {
+					"X": 64.0,
+					"Y": 256.0,
+					"Z": 0.0
+				}
+			},
+			"Control": "FlaxEngine.GUI.Label",
+			"Data": {
+	"Text": "Restart",
+	"TextColor": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"TextColorHighlighted": {
+		"R": 1.0,
+		"G": 1.0,
+		"B": 1.0,
+		"A": 1.0
+	},
+	"HorizontalAlignment": 1,
+	"VerticalAlignment": 1,
+	"Wrapping": 0,
+	"Font": {
+		"Font": "ea9f671a4de39f19bf2a5082ac86e97c",
+		"Size": 16
+	},
+	"Margin": {
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
+	},
+	"ClipText": false,
+	"AutoWidth": true,
+	"AutoHeight": false,
+	"AutoFitText": false,
+	"AutoFitTextRange": {
+		"X": 0.1,
+		"Y": 100.0
+	},
+	"ClipChildren": true,
+	"CullChildren": true,
+	"AnchorMin": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"AnchorMax": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Offsets": {
+		"Left": 64.0,
+		"Right": 64.0,
+		"Top": 256.0,
+		"Bottom": 64.0
+	},
+	"Scale": {
+		"X": 1.0,
+		"Y": 1.0
+	},
+	"Pivot": {
+		"X": 0.5,
+		"Y": 0.5
+	},
+	"Shear": {
+		"X": 0.0,
+		"Y": 0.0
+	},
+	"Rotation": 0.0,
+	"BackgroundColor": {
+		"R": 0.0,
+		"G": 0.0,
+		"B": 0.0,
+		"A": 0.0
+	},
+	"Enabled": true,
+	"Visible": true,
+	"AutoFocus": false
+}
+		},
+		{
+			"ID": "2b3a260a45e420cf13e47cb81f21f431",
+			"TypeName": "FlaxEngine.AudioSource",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "Music",
+			"Clip": "290137294f5b5a5d47c6e5bad1f17a2b",
+			"Loop": true,
+			"PlayOnStart": true
+		},
+		{
+			"ID": "987daef84114f1f137b8dab584804a6b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "4cb760284c15b7ffffdb62a9a3d598b4",
+			"Name": "EndTrigger",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 0.0,
+					"Z": 22753.291015625
+				}
+			},
+			"IsTrigger": true,
+			"Center": {
+				"X": 0.0,
+				"Y": 100.0,
+				"Z": 0.0
+			},
+			"Size": {
+				"X": 600.0,
+				"Y": 600.0,
+				"Z": 600.0
+			}
+		},
+		{
+			"ID": "8d1fedd548a2441a40dfe29bae76e0a0",
+			"TypeName": "Game.Finishline",
+			"ParentID": "987daef84114f1f137b8dab584804a6b",
+			"V": {
+	"player": "97e6239a4d6aaa215677bbab4a036be0"
+}
+		}
+	]
+}

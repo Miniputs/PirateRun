@@ -1,0 +1,73 @@
+{
+	"ID": "e603459744dc29c0caa1d484b96e3639",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6217,
+	"Data": [
+	{
+		"ID": "22625efa448809d977eeb8b821d6f4f1",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Barrel-PF",
+		"Transform": {
+			"Translation": {
+				"X": -110.31466674804688,
+				"Y": 0.0,
+				"Z": -684.453369140625
+			}
+		},
+		"Layer": 2
+	},
+	{
+		"ID": "b5b371f04eaaa9b8d87772b3af513ec7",
+		"TypeName": "FlaxEngine.CapsuleCollider",
+		"ParentID": "22625efa448809d977eeb8b821d6f4f1",
+		"Name": "BarrelCollider",
+		"Transform": {
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.7071068286895752,
+				"W": 0.7071067094802856
+			}
+		},
+		"Layer": 2,
+		"IsTrigger": true,
+		"Center": {
+			"X": 60.0,
+			"Y": 0.0,
+			"Z": 0.0
+		},
+		"Radius": 40.0
+	},
+	{
+		"ID": "7af9e5a5464034bf776c78b3b03b7bd3",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "b5b371f04eaaa9b8d87772b3af513ec7",
+		"Name": "Barrel",
+		"Transform": {
+			"Translation": {
+				"X": -20.0086727142334,
+				"Y": -4.982884407043457,
+				"Z": 125.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": -0.7071068286895752,
+				"W": 0.7071068286895752
+			}
+		},
+		"Layer": 2,
+		"Model": "fffd23004bd09c4c2b17ffbd6d01a8ca",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

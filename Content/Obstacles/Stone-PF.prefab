@@ -1,0 +1,64 @@
+{
+	"ID": "bb9e869d487ca49f0e12cdbe7fb812dc",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6217,
+	"Data": [
+	{
+		"ID": "574ca9f54c02480a4c13228e9a949d1c",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Stone-PF",
+		"Transform": {
+			"Translation": {
+				"X": -101.29737854003906,
+				"Y": 0.0,
+				"Z": -3313.78564453125
+			}
+		},
+		"Layer": 2
+	},
+	{
+		"ID": "f2a44c9b4614a6bf804363a203a2bf16",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "574ca9f54c02480a4c13228e9a949d1c",
+		"Name": "StoneCollider",
+		"Layer": 2,
+		"IsTrigger": true,
+		"Center": {
+			"X": 0.0,
+			"Y": 40.0,
+			"Z": 0.0
+		}
+	},
+	{
+		"ID": "ac36484746253433c42d76b81cf67c1b",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "f2a44c9b4614a6bf804363a203a2bf16",
+		"Name": "Stone",
+		"Transform": {
+			"Translation": {
+				"X": -33.40764617919922,
+				"Y": -15.04815673828125,
+				"Z": 74.12947082519531
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": -0.2164396196603775,
+				"Z": 0.0,
+				"W": 0.9762960076332092
+			}
+		},
+		"Layer": 2,
+		"Model": "bae9c336458bff55eff220b0d402b9cf",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}
