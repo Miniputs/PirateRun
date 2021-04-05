@@ -1,3 +1,3 @@
 # PirateRun
  Small runner game made with Flax Engine
-<img src="preview.png">
+<img src="preview.jpg">
